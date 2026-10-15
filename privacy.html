@@ -103,7 +103,8 @@
     <li>모든 통신은 HTTPS로 암호화합니다.</li>
     <li>비밀번호는 암호화(해시)되어 저장되며, 운영자도 알 수 없습니다.</li>
     <li>각 이용자는 자신의 기록과 사진에만 접근할 수 있도록 서버에서 제한합니다.</li>
-    <li>사진과 확인증은 비공개로 저장하고, 볼 때마다 잠시만 유효한 주소를 발급합니다.</li>
+    <li><b>사진과 확인증은 이용자의 기기에서 암호화한 뒤 저장합니다.</b> 열쇠는 기기와, 여권 비밀번호로 다시 잠근 형태로만 보관되어 운영자와 서버 업체도 사진을 볼 수 없습니다. 그래서 여권 비밀번호를 잊으면 사진을 복구할 수 없습니다.</li>
+    <li>그 밖의 기록(여행·일정·지출·메모)은 운영자가 오류 해결, 이용자의 요청, 법령상 의무가 있을 때에만 열람합니다.</li>
   </ul>
 </section>
 
@@ -178,7 +179,8 @@
     <li>All traffic is encrypted with HTTPS.</li>
     <li>Passwords are stored hashed; not even the operator can read them.</li>
     <li>The server restricts each user to their own records and photos.</li>
-    <li>Photos and confirmations are private and shown through short-lived links.</li>
+    <li><b>Photos and confirmations are encrypted on your device before upload.</b> The key is kept only on your device and, locked with your passport password, on the server, so neither the operator nor the hosting provider can view them. If you forget your password, photos cannot be recovered.</li>
+    <li>Other records (trips, itinerary, expenses, notes) are accessed by the operator only to fix errors, at your request, or when required by law.</li>
   </ul>
 </section>
 <section>
