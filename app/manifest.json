@@ -1,0 +1,3 @@
+{ "name": "도망가자", "short_name": "도망가자", "start_url": "/domang-gaja/app/", "scope": "/domang-gaja/app/",
+  "display": "standalone", "background_color": "#E9ECF1", "theme_color": "#0B8A4A",
+  "icons": [{ "src": "/domang-gaja/app/apple-touch-icon.png", "sizes": "1024x1024", "type": "image/png" }] }
